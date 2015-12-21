@@ -331,9 +331,10 @@ void draw_pdf() {
     //draw_bandsBR("g.txt", "g-model.txt", "g-para.txt");
     //draw_Single("store/gluon-EXP-hera");
   
-    draw_Double("store/gluon-EXP-hera","store/gluon-EXP-hera+cms", "store/gluon-EXP-relative-hera", "store/gluon-EXP-relative-hera+cms",4,"x #bullet g");
-    draw_Double("store/up-EXP-hera","store/up-EXP-hera+cms", "store/up-EXP-relative-hera", "store/up-EXP-relative-hera+cms",1,"x #bullet u_{v}");
-    draw_Double("store/down-EXP-hera","store/down-EXP-hera+cms", "store/down-EXP-relative-hera", "store/down-EXP-relative-hera+cms",0.6,"x #bullet d_{v}");
+    //draw_Double("store/gluon-EXP-hera","store/gluon-EXP-hera+cms", "store/gluon-EXP-relative-hera", "store/gluon-EXP-relative-hera+cms",4,"x #bullet g");
+    draw_Double("store/gluon-EXP+MOD-hera","store/gluon-EXP+MOD-hera+cms", "store/gluon-EXP+MOD-relative-hera", "store/gluon-EXP+MOD-relative-hera+cms",4,"x #bullet g");
+    draw_Double("store/up-EXP+MOD-hera","store/up-EXP+MOD-hera+cms", "store/up-EXP+MOD-relative-hera", "store/up-EXP+MOD-relative-hera+cms",1,"x #bullet u_{v}");
+    draw_Double("store/down-EXP+MOD-hera","store/down-EXP+MOD-hera+cms", "store/down-EXP+MOD-relative-hera", "store/down-EXP+MOD-relative-hera+cms",0.6,"x #bullet d_{v}");
 
 
 }
